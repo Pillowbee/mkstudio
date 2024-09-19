@@ -1,0 +1,26 @@
+.serialDetail {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.serialDetail__poster {
+    object-fit: cover;
+}
+
+.serialDetail__content {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 16px;
+}
+
+.serialDetail__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.serialDetail__video {
+    align-self: end;
+}

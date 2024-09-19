@@ -1,0 +1,10 @@
+.serial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.serial__name {
+    font-size: 18px;
+}
