@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="ru" className={roboto.className}>
     <body className={styles.body}>
     <Link href="/" >
-      <Image src="/logo.png" alt="MK Studio" width={250} height={113} />
+      <Image src="/logo2.png" alt="MK Studio" width={300} height={100} />
     </Link>
     <main className={styles.main}>
       {children}
