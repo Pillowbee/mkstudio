@@ -12,7 +12,7 @@ interface SerialCardProps {
 export default function SerialCard({serial}: SerialCardProps) {
   return (
     <Link href={`/${serial.id}`} className={styles.serial}>
-        <Image src={getResourceURL(serial.image)} alt={serial.serial_name} width={200} height={300}/>
+        <Image className={styles.imgSerial} src={getResourceURL(serial.image)} alt={serial.serial_name} width={200} height={300}/>
         <span className={styles.serial__name}>{serial.serial_name}</span>
     </Link>
   )

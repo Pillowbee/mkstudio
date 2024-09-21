@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image"
 import Link from "next/link"
-import { Roboto } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import styles from "@/app/page.module.css";
 
-const roboto = Roboto({
+const montserrat = Montserrat({
   subsets: ["latin", "cyrillic"],
   weight: ["400", "700"],
   display: "swap",
@@ -13,7 +13,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "MK Studio",
-  description: "Это портал!",
+  description: "Хуета",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className={roboto.className}>
+    <html lang="ru" className={montserrat.className}>
     <body className={styles.body}>
     <Link href="/" >
       <Image src="/logo2.png" alt="MK Studio" width={300} height={90} />
