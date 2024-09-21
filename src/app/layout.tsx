@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image"
 import Link from "next/link"
-import { Roboto } from "next/font/google"
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import styles from "@/app/page.module.css";
 
