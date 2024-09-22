@@ -2,7 +2,7 @@
     display: grid;
     grid-template-rows: 113px auto;
     justify-items: start;
-    gap: 12px;
+    gap: 15px;
     padding: 10px;
 }
 
@@ -25,5 +25,18 @@
 .serials {
     display: flex;
     width: 100%;
-    
+
+}
+
+.loginButton {
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: 1px solid transparent;
+}
+
+.loginButton:hover{
+    text-shadow: 10px solid #40927C;
+    box-shadow: 0 0 10px 5px #40927C;
 }
