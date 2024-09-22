@@ -7,7 +7,7 @@ export default function BackButton() {
 
   return (
     <button type="button" onClick={() => {
-      router.back()
+      router.push('/')
     }}>НАЗАД</button>
   )
 }
