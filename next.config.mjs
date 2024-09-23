@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'http',
-                hostname: process.env.API_URL,
+                hostname: process.env.ASSETS_URL,
                 port: '8055',
                 pathname: '/assets/**',
             },
