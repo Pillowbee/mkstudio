@@ -13,11 +13,12 @@
 
 .imgSerial{
     border-radius: 5px;
-    border: 1px solid transparent;
+    transition: all 0.2s;
 }
 
 .imgSerial:hover{
     outline: 5px solid #40927C;
-    box-shadow: 0 0 10px 6px #40927C;
+    box-shadow: 0 0 10px 6px #40927C;    
+    transform: scale(1.01);
 }
 
