@@ -27,6 +27,7 @@ export default function RootLayout({
     <Link href="/" >
       <Image src="/logo2.png" alt="MK Studio" width={300} height={90} />
     </Link>
+    <h1 className={styles.loginButton}>Войти</h1>
     <main className={styles.main}>
       {children}
     </main>

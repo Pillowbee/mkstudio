@@ -11,6 +11,13 @@
     color: #D6E4D5;
 }
 
-.imgSerial {
+.imgSerial{
     border-radius: 5px;
+    border: 1px solid transparent;
 }
+
+.imgSerial:hover{
+    outline: 5px solid #40927C;
+    box-shadow: 0 0 10px 6px #40927C;
+}
+
