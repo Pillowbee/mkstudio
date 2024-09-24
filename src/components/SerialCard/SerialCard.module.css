@@ -19,6 +19,6 @@
 .imgSerial:hover{
     outline: 5px solid #40927C;
     box-shadow: 0 0 10px 6px #40927C;    
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 
