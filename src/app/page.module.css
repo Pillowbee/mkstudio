@@ -7,9 +7,6 @@
 }
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
     width: 1320px;
     padding: 20px;
     margin: 0 auto;
@@ -25,8 +22,9 @@
 
 .serials {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-
+    row-gap: 16px;
 }
 
 .loginButton {

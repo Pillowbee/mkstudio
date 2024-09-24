@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 8px;
     width: 20%;
 }
 
 .serial__name {
     font-size: 18px;
     color: #D6E4D5;
+    text-align: center;
 }
 
 .imgSerial{
