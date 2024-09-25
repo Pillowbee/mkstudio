@@ -11,7 +11,7 @@ export default async function Page({params}: { params: { id: string } }) {
   if (!data) {
     return <span>failed</span>
   }
-
+console.log(data.actors_name)
   return (
     <div>
       <BackButton />
@@ -21,8 +21,8 @@ export default async function Page({params}: { params: { id: string } }) {
           <div className={styles.serialDetail__info}>
             <span><b>Название</b>: {data.serial_name}</span>
             <span><b>Год выпуска</b>: {data.year}</span>
-            <span><b>Актёры</b>: {data.actors_name}</span>
-            <span><b>Дабберы</b>: {data.dubbers_name}</span>
+            <span><b>Актёры</b>: {data.actors_name.join(', ')}</span>
+            <span><b>Дабберы</b>: {data.dubbers_name.join(', ')}</span>
             <span>{data.description}</span>
           </div>
           <iframe className={styles.serialDetail__video} src={`//kodik.cc/${data.video}`} width="607" height="360"
