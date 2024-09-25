@@ -11,6 +11,10 @@
     padding: 20px;
     margin: 0 auto;
     border-radius: 8px;
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 8px;
+    }
 }
 
 .title {
@@ -24,18 +28,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    column-gap: 8px;
     row-gap: 16px;
-}
-
-.loginButton {
-    font-size: 20px;
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    border: 1px solid transparent;
-}
-
-.loginButton:hover{
-    text-shadow: 10px solid #40927C;
-    box-shadow: 0 0 10px 5px #40927C;
 }
