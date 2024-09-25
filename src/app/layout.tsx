@@ -24,8 +24,8 @@ export default function RootLayout({
   return (
     <html lang="ru" className={montserrat.className}>
     <body className={styles.body}>
-    <Link href="/" >
-      <Image src="/logo2.png" alt="MK Studio" width={300} height={90} />
+    <Link href="/">
+      <Image src="/logo2.png" alt="MK Studio" width={300} height={90}/>
     </Link>
     <main className={styles.main}>
       {children}
