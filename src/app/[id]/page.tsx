@@ -22,7 +22,7 @@ console.log(data.actors_name)
             <span><b>Название</b>: {data.serial_name}</span>
             <span><b>Год выпуска</b>: {data.year}</span>
             <span><b>Актёры</b>: {data.actors_name.join(', ')}</span>
-            <span><b>Дабберы</b>: {data.dubbers_name.join(', ')}</span>
+            <span><b>Дабберы</b>: {data.dubbers_name.join(' ')}</span>
             <span>{data.description}</span>
           </div>
           <iframe className={styles.serialDetail__video} src={`//kodik.cc/${data.video}`} width="100%" height="360"
