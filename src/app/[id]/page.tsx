@@ -23,7 +23,6 @@ export default async function Page({ params }: { params: { id: string } }) {
             <span><b>Название</b>: {data.serial_name}</span>
 
             <span><b>Год выпуска</b>: {data.year}</span>
-
             <div className={styles.info__container}></div>
             <span><b>Актёры</b>: </span>
             {data.actors_name.split(',').map((item) => <TagElement key={item} data={item} />)}
