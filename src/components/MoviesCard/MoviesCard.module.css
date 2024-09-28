@@ -1,0 +1,30 @@
+.movies {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 240px;
+    @media (max-width: 768px) {
+        width: calc(50% - 4px);
+    }
+}
+
+.movies__name {
+    font-size: 18px;
+    color: #D6E4D5;
+    text-align: center;
+}
+
+.movies__img{
+    border-radius: 5px;
+    transition: all 0.2s;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.movies__img:hover{
+    outline: 5px solid #40927C;
+    box-shadow: 0 0 10px 6px #40927C;    
+    transform: scale(1.02);
+}

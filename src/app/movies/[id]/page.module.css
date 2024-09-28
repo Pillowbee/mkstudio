@@ -1,0 +1,38 @@
+.moviesDetail {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    margin-top: 4px;
+    @media (max-width: 768px) {
+        grid-template-columns: unset;
+        grid-template-rows: auto auto;
+    }
+}
+
+.moviesDetail__poster {
+    object-fit: cover;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.moviesDetail__content {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 16px;
+}
+
+.moviesDetail__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.moviesDetail__video {
+    align-self: end;
+}
+
+.info__container {
+    display: flex;
+    gap: 4px;
+}

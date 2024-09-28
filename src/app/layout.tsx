@@ -4,6 +4,8 @@ import Link from "next/link"
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import styles from "@/app/page.module.css";
+import FilmButton from "@/components/FilmButton/FilmButton";
+import SerialButton from "@/components/SerialButton/SerialButton";
 
 const montserrat = Montserrat({
   subsets: ["latin", "cyrillic"],
@@ -27,6 +29,7 @@ export default function RootLayout({
     <Link href="/">
       <Image src="/logo2.png" alt="MK Studio" width={300} height={90}/>
     </Link>
+    <FilmButton /> <SerialButton /> 
     <main className={styles.main}>
       {children}
     </main>
