@@ -31,3 +31,8 @@
 .serialDetail__video {
     align-self: end;
 }
+
+.info__container {
+    display: flex;
+    gap: 4px;
+}

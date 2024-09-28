@@ -6,5 +6,6 @@ export type Serial = {
   "actors_name": string[],
   "dubbers_name": string[],
   "video": string,
-  "image": string
+  "image": string,
+  "dubers": string
 }

@@ -7,7 +7,7 @@ async function fetchQuery(path: string, params = null) {
   } else {
     url = `${baseUrl}/${path}`
   }
-  const response = await fetch(`${url}`)
+  const response = await fetch(`${url}`, {cache: 'no-store'})
   return await response.json()
 }
 
