@@ -21,8 +21,22 @@ console.log(data.actors_name)
           <div className={styles.serialDetail__info}>
             <span><b>Название</b>: {data.serial_name}</span>
             <span><b>Год выпуска</b>: {data.year}</span>
-            <span><b>Актёры</b>: {data.actors_name}</span>
-            <span><b>Дабберы</b>: {data.dubbers_name}</span>
+            <div className={styles.info__container}></div>
+            <span><b>Актёры</b>: </span>
+            {data.actors_name.split(',').map((item) => <TagElement key={item} data={item} />)}
+
+            <div className={styles.info__container}>
+              <span><b>Дабберы</b>: </span>
+              {data.dubbers_name.split(',').map((item) => <TagElement key={item} data={item} />)}
+            </div>
+
+            <div className={styles.info__container}></div>
+            <span><b>Жанр</b>: </span>
+            {data.genre.split(',').map((item) => <TagElement key={item} data={item} />)}
+
+            <div className={styles.info__container}></div>
+            <span><b>Страна</b>: </span>            
+            {data.country.split(',').map((item) => <TagElement key={item} data={item} />)}
             <span>{data.description}</span>
           </div>
           <iframe className={styles.serialDetail__video} src={`//kodik.cc/${data.video}`} width="100%" height="360"
