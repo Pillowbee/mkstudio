@@ -39,7 +39,7 @@ export default async function Page({ params }: { params: { id: string } }) {
 
             <div className={styles.info__container}></div>
             <span><b>Страна</b>: </span>            
-            {data.country.split(',').map((item) => <TagElement key={item} data={item} />)}
+            {data.country.split(', ').map((item) => <TagElement key={item} data={item} />)}
 
 
             <span>{data.description}</span>
