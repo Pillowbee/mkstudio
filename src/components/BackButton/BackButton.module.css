@@ -1,0 +1,24 @@
+.backbutton {
+    position: relative;
+    width: 150px;
+    font-size: 18px;
+    color: #000000;
+    background-color: #D6E4D5;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border-width: 0px;
+
+}
+
+.backbutton:hover {
+    outline: 0px solid #40927C;
+    box-shadow: 0 0 5px 1px #40927C;
+    transition: all 0.2s;
+    background-color: #D6E4D5;
+}
+
+.backbutton:active {
+    background-color: #40927C;
+
+}
