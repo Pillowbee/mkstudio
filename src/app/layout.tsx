@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: 'MK Studio',
-  description: 'Сайт с корейскими дорамами ==)',
+  description: 'Сайт с корейскими дорамами =)',
 };
 
 export default function RootLayout({
